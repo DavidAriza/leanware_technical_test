@@ -9,7 +9,7 @@ The goal of this project is to create a simple video call application that enhan
 
 #### Developer Environment Requirements
 
-- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Flutter](https://flutter.dev/docs/get-started/install) (Dart needs to be at least 3.6.0)
 
 ### Steps to run
 
