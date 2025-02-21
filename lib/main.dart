@@ -17,14 +17,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:leanware_test/firebase_options.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import 'components/log_sink.dart';
-
 import 'package:leanware_test/injection_container.dart' as di;
 
 void main() async {
   FlutterError.onError = (details) {
     FlutterError.presentError(details);
-    logSink.log(details.toString());
   };
 
   runZonedGuarded(() async {
@@ -34,9 +31,7 @@ void main() async {
     );
     await di.init();
     runApp(const MyApp());
-  }, (error, stackTrace) {
-    logSink.log(error.toString());
-  });
+  }, (error, stackTrace) {});
 }
 
 /// This widget is the root of your application.
