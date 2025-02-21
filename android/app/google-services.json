@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359021631368",
+    "project_id": "leanwaretest",
+    "storage_bucket": "leanwaretest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359021631368:android:ea0fc4dfd3cd68d93f4c3d",
+        "android_client_info": {
+          "package_name": "io.agora.agora_rtc_ng_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMhLk5v6MplHu5OJT_EBg5rl4ziNVSYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
