@@ -17,7 +17,7 @@ The goal of this project is to create a simple video call application that enhan
 
 1. Run `flutter pub get`.
 
-3. Open [agora.config.dart](./lib/config/agora.config.dart) file and specify your App ID and Token.
+2. Open [agora.config.dart](./lib/config/agora.config.dart) file and specify your App ID and Token.
 
    > See [Set up Authentication](https://docs.agora.io/en/Agora%20Platform/token) to learn how to get an App ID and access token. You can get a temporary access token to quickly try out this sample project.
    >
@@ -27,5 +27,10 @@ The goal of this project is to create a simple video call application that enhan
    >
    > Temporary access tokens are for demonstration and testing purposes only and remain valid for 24 hours. In a production environment, you need to deploy your own server for generating access tokens. See [Generate a Token](https://docs.agora.io/en/Interactive%20Broadcast/token_server) for details.
 
-4. Make the project and run the app in the simulator or connected physical device.
+3. Make the project and run the app in the simulator or connected physical device.
 
+### Steps to deploy web project
+
+1. Run `flutter build web`
+   
+2. Run `firebase deploy`
