@@ -2,9 +2,7 @@
 
 ## Overview
 
-This project is an open-source demo that will show you different scenes on how to integrate [agora_rtc_engine](https://pub.dev/packages/agora_rtc_engine) APIs into your project.
-
-Any scene of this project can run successfully alone.
+The goal of this project is to create a simple video call application that enhances the user experience with the following features starting from example project of agora repository found in https://github.com/AgoraIO-Extensions/Agora-Flutter-SDK/tree/main/example:
 
 
 ## How to run the sample project
