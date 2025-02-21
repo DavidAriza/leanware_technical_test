@@ -5,8 +5,7 @@ const keyAppId = 'c00aeb33de9f4511b0e3afee0eaf2c3e';
 const keyChannelId = 'leanware_channel';
 
 /// Key of token
-const keyToken =
-    '007eJxTYFj/zTHTXlg9ws7khAhbxvfqCYknN++UOHO1+WG1YSpXYLsCQ7KBQWJqkrFxSqplmompoWGSQapxYlpqqkFqYppRsnHqkavb0xsCGRnCvhowMEIhiC/AkJOamFeeWJQan5yRmJeXmsPAAADbXST+';
+const keyToken = '';
 
 ExampleConfigOverride? _gConfigOverride;
 

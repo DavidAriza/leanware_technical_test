@@ -45,3 +45,4 @@ app.*.map.json
 /android/app/release
 
 web/lib-iris-web.js
+/android/key.properties

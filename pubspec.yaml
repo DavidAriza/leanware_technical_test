@@ -38,6 +38,7 @@ dependencies:
   firebase_core: ^3.10.0
   bloc_test: ^10.0.0
   patrol: ^3.14.0
+  universal_html: ^2.2.4
   
 
 dev_dependencies:
@@ -104,7 +105,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-patrol:
-  app_name: Awesome App
-  android:
-    package_name: my.package.name

@@ -307,7 +307,7 @@ class _State extends State<JoinChannelAudioAndVideoScreen> {
                       context.pop();
                     }
                   },
-                  child: const WaitingRoom(),
+                  child: WaitingRoom(),
                 );
               }
               if (callState == StartCall()) {

@@ -6,7 +6,7 @@ import 'package:equatable/equatable.dart';
 part 'timer_state.dart';
 
 class TimerCubit extends Cubit<TimerState> {
-  static const int _duration = 70;
+  static const int _duration = 600;
   Timer? _timer;
 
   TimerCubit() : super(const TimerInitial(_duration));
